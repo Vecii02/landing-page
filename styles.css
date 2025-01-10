@@ -51,8 +51,17 @@ nav {
 }
 
 .hero-text {
-  /* flex: 1; */
   width: 450px;
+}
+
+.hero-image {
+  width: 550px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #777;
+  color: #e5e7eb;
 }
 
 .main-heading {
@@ -115,7 +124,7 @@ nav {
 
 .information-paragraph {
   font-size: 18px;
-  color: #1f2937;
+  color: #777;
   margin-bottom: 80px;
 }
 
