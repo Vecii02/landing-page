@@ -19,7 +19,6 @@ header {
 
 nav {
   display: flex;
-  flex: 1;
   justify-content: space-between;
   align-items: center;
   padding: 10px 0;
@@ -55,7 +54,7 @@ nav {
 }
 
 .hero-image {
-  width: 550px;
+  width: 480px;
   height: 250px;
   display: flex;
   justify-content: center;
@@ -73,7 +72,7 @@ nav {
 .hero-button {
   background-color: #3882f6;
   padding: 8px 30px;
-  border: none;
+  border: 1px solid #e5e7eb;
   border-radius: 5px;
   font-weight: 600;
   color: #e5e7eb;
@@ -85,11 +84,7 @@ nav {
 .hero-button:hover {
   background-color: #e5e7eb;
   color: #3882f6;
-}
-
-.hero-image {
-  width: 550px;
-  height: 250px;
+  border-color: #3882f6;
 }
 
 .main--container {
@@ -162,7 +157,6 @@ nav {
   align-items: center;
   margin-top: 80px;
   background-color: #3882f6;
-  display: flex;
   padding: 50px 100px;
   border-radius: 10px;
 }
